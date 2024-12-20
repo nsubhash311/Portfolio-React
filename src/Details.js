@@ -7,11 +7,11 @@ import profile from "./assets/profile.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
+// import sass from "./assets/techstack/sass.png";
 import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
-import tailwind from "./assets/techstack/tailwind.png";
+// import redux from "./assets/techstack/redux.png";
+// import tailwind from "./assets/techstack/tailwind.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
@@ -23,10 +23,10 @@ import angular from "./assets/techstack/angular.png";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+// import projectImage3 from "./assets/projects/project3.jpg";
+// import projectImage4 from "./assets/projects/project4.jpg";
+// import projectImage5 from "./assets/projects/project5.jpg";
+// import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
 export const logos = {
@@ -39,14 +39,13 @@ export const personalDetails = {
   name: "Subhash Nandhakumar",
   tagline: "i'm a Software Dev",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `I'm a dedicated software developer with expertise in crafting efficient solutions using modern technologies. I enjoy solving complex problems, optimizing systems, and continuously learning to stay ahead in the tech world. Let's connect and create something amazing!`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/subhash-nandhakumar",
+  linkdein: "https://www.linkedin.com/in/subhash-nandhakumar",
   github: "https://www.github.com/nsubhash311",
-  twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/subhash_311",
 };
 
@@ -99,9 +98,9 @@ export const techStackDetails = {
   css: css,
   js: js,
   react: react,
-  redux: redux,
-  sass: sass,
-  tailwind: tailwind,
+  // redux: redux,
+  // sass: sass,
+  // tailwind: tailwind,
   bootstrap: bootstrap,
   vscode: vscode,
   postman: postman,
@@ -115,59 +114,58 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "PTSD Detection using BERT Models",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Developed a system to detect PTSD indicators in clinical text using BERT and its variants. The project involved comprehensive data preprocessing and fine-tuning models to achieve high validation accuracies (93-95%) across multiple BERT configurations.
+`,
+    techstack: "Python, Machine Learning",
+    Link: "https://medium.com/@subhashnandhakumar311/revolutionizing-ptsd-detection-with-bert-a-step-towards-better-mental-health-support-c83fe894674d",
+    // githubLink: "https://github.com",
   },
   {
-    title: "Project title 2",
+    title: "Sarvatrika",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `An universal prediction model where it does everything in automation which predicts values of any numerical dataset. Machine learning-powered service that enables users to view an analyzed prediction of their commercial data that helps even small scale businesses to utilize ML.`,
+    techstack: "JavaScript, Python, Machine Learning, HTML/CSS",
+    // Link: "https://google.com",
+    Link: "https://github.com/nsubhash311/Sarvatrika-V-2",
   },
-  {
-    title: "Project title 3",
-    image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
+//   {
+//     title: "Project title 3",
+//     image: projectImage3,
+//     description: `This is sample project description random things are here in description This is sample
+// project lorem ipsum generator for dummy content`,
+//     techstack: "HTML/CSS, JavaScript",
+//     previewLink: "https://google.com",
+//     githubLink: "https://github.com",
+//   },
+//   {
+//     title: "Project title 4",
+//     image: projectImage4,
+//     description: `This is sample project description random things are here in description This is sample
+// project lorem ipsum generator for dummy content`,
+//     techstack: "HTML/CSS, JavaScript",
+//     previewLink: "https://google.com",
+//     githubLink: "https://github.com",
+//   },
+//   {
+//     title: "Project title 5",
+//     image: projectImage5,
+//     description: `This is sample project description random things are here in description This is sample
+// project lorem ipsum generator for dummy content`,
+//     techstack: "HTML/CSS, JavaScript",
+//     previewLink: "https://google.com",
+//     githubLink: "https://github.com",
+//   },
+//   {
+//     title: "Project title 6",
+//     image: projectImage6,
+//     description: `This is sample project description random things are here in description This is sample
+// project lorem ipsum generator for dummy content`,
+//     techstack: "HTML/CSS, JavaScript",
+//     previewLink: "https://google.com",
+//     githubLink: "https://github.com",
+//   },
 ];
 
 // Enter your Contact Details here

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Project({ title, image, description, techstack, previewLink, githubLink }) {
+function Project({ title, image, description, techstack, Link, githubLink }) {
   return (
     <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
       <img src={image} alt="" loading="lazy" />
@@ -34,15 +34,15 @@ function Project({ title, image, description, techstack, previewLink, githubLink
               />
             </svg>
             <a
-              href={previewLink}
+              href={Link}
               target="_blank"
               rel="noreferrer noopener"
               className="underline pl-2 font-light dark:text-white"
             >
-              Live Preview
+              Have a look
             </a>
           </div>
-          <div className="flex items-center">
+          {/* <div className="flex items-center">
             <svg
               className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
               width="20"
@@ -66,7 +66,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
             >
               View Code
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </article>

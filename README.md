@@ -25,7 +25,6 @@ export const personalDetails = {
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/",
   github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/",
 };
 
