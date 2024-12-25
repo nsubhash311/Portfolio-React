@@ -77,7 +77,7 @@ function Home() {
         >
           {tagline}
         </h2>
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer"> Resume</a>
+        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" style={{ color: 'White', textDecoration: 'underline' }}>View my resume</a>
       </div>
       <div className="mt-5 md:mt-0">
         <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Subhash Nandhakumar" />
