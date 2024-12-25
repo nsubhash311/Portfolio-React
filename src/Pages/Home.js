@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
+import { PopupWidget } from "react-calendly";
 
 function Home() {
   const { name, tagline, img } = personalDetails;
@@ -78,6 +79,25 @@ function Home() {
           {tagline}
         </h2>
         <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" style={{ color: 'White', textDecoration: 'underline' }}>View my resume</a>
+        
+         
+      </div>
+      <div>
+      {/* <a href="" onClick={(e) => { e.preventDefault(); Calendly.initPopupWidget({ url: 'https://calendly.com/subhashnandhakumar311/30min' }); }}>Schedule time with me</a> */}
+      {/* <PopupButton
+        url="https://calendly.com/subhashnandhakumar311/30min" 
+        rootElement={document.getElementById("root")}
+        text="Click here to schedule!"
+      /> */}
+
+    <PopupWidget
+        url="https://calendly.com/subhashnandhakumar311/30min"
+        rootElement={document.getElementById("root")}
+        text="Discuss with me!"
+        textColor="#ffffff"
+        color="#00a2ff"
+      />
+      
       </div>
       <div className="mt-5 md:mt-0">
         <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Subhash Nandhakumar" />
