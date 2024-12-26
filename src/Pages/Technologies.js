@@ -38,7 +38,6 @@ function Technologies() {
         <img src={js} title="JavaScript" alt="" />
         <img src={react} title="React" alt="" />
         <img src={angular} title="Angular" alt="" />
-        <br />
         <img src={nodejs} title="Node JS" alt="" />
         <img src={python} title="Pyhton" alt="" />
         <img src={flask} title="Flask" alt="" />
