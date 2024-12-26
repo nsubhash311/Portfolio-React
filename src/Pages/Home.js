@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
-import { PopupWidget } from "react-calendly";
 
 function Home() {
   const { name, tagline, img } = personalDetails;
@@ -91,13 +90,13 @@ function Home() {
         text="Click here to schedule!"
       /> */}
 
-    <PopupWidget
+    {/* <PopupWidget
         url="https://calendly.com/subhashnandhakumar311/30min"
         rootElement={document.getElementById("root")}
         text="Discuss with me!"
         textColor="#ffffff"
         color="#00a2ff"
-      />
+      /> */}
       
       </div>
       <div className="mt-5 md:mt-0">
