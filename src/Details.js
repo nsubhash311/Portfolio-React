@@ -49,7 +49,7 @@ export const personalDetails = {
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/in/subhash-nandhakumar",
+  linkdein: "https://www.linkedin.com/in/nsubhash",
   github: "https://www.github.com/nsubhash311",
   instagram: "https://www.instagram.com/subhash_311",
 };
